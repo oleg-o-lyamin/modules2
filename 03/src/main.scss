@@ -1,0 +1,50 @@
+header {
+    h1 {
+        color: red;
+    }
+
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.item {
+    margin-bottom: 30px;
+    margin-right: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .image {
+        img {
+            max-height: 300px;
+            max-width: 300px;
+        }
+    }
+
+    .audio {
+        width: 300px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #f1f3f4;
+    }
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-left: 50px;
+}
+
+audio {
+    width: 300px;
+    background-color: #f1f3f4;
+}
+
+video {
+    width: 300px;
+}
